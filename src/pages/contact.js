@@ -17,11 +17,14 @@ const ContactPage = () => (
             data-aos-once="false"
           >
             <h1 class="display-2 mb-2 splitting-up" data-splitting="">
-              Get in touch with us
+              Let’s Start a Conversation
             </h1>
             <p class="mb-0 lead w-lg-85">
-              Do you have questions about our products or need a quote? Use the
-              contact form below and we will get back to you.
+              Explore our education methods and learn more about how CFEG
+              programs and teachers provide students and parents the options to
+              direct their learning. Talk with us about creating a customized
+              educational experience that blends learning strategies with
+              personalized academic instruction.
             </p>
           </div>
         </div>
