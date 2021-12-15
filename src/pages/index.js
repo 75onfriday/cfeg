@@ -31,13 +31,8 @@ const IndexPage = () => (
                 <ul class="text-white list-unstyled carousel-layers mb-0">
                   <li data-carousel-layer="fade-end">
                     <h2 class="d-inline-block bg-primary px-2 py-3 lh-1 mb-0 fs-1">
-                      Feel the difference
+                      The Center for Educational Growth
                     </h2>
-                  </li>
-                  <li data-carousel-layer="fade-start">
-                    <p class="mb-0 d-inline-block bg-warning text-dark px-2 py-2 lh-1">
-                      This is the best quality theme
-                    </p>
                   </li>
                 </ul>
               </div>
@@ -53,13 +48,8 @@ const IndexPage = () => (
                 <ul class="text-white list-unstyled carousel-layers mb-0">
                   <li data-carousel-layer="fade-end">
                     <h2 class="d-inline-block bg-primary px-2 py-3 lh-1 mb-0 fs-1">
-                      Feel the difference
+                      Direct Your Learning
                     </h2>
-                  </li>
-                  <li data-carousel-layer="fade-start">
-                    <p class="mb-0 d-inline-block bg-warning text-dark px-2 py-2 lh-1">
-                      This is the best quality theme
-                    </p>
                   </li>
                 </ul>
               </div>
@@ -75,13 +65,8 @@ const IndexPage = () => (
                 <ul class="text-white list-unstyled carousel-layers mb-0">
                   <li data-carousel-layer="fade-end">
                     <h2 class="d-inline-block bg-primary px-2 py-3 lh-1 mb-0 fs-1">
-                      Feel the difference
+                      Spring Enrollment Closes on Dec. 27th
                     </h2>
-                  </li>
-                  <li data-carousel-layer="fade-start">
-                    <p class="mb-0 d-inline-block bg-warning text-dark px-2 py-2 lh-1">
-                      This is the best quality theme
-                    </p>
                   </li>
                 </ul>
               </div>
@@ -142,37 +127,7 @@ const IndexPage = () => (
             data-aos="fade-up"
             data-aos-delay="50"
           >
-            <div class="position-relative p-2">
-              <svg
-                class="w-100 h-auto"
-                preserveAspectRatio="xMidYMid meet"
-                width="880"
-                height="880"
-                viewBox="0 0 880 880"
-                fill="none"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M488.983 10.2896C457.62 -2.7016 422.38 -2.7016 391.017 10.2896L170.785 101.512C139.422 114.504 114.504 139.422 101.512 170.785L10.2896 391.017C-2.7016 422.38 -2.70161 457.62 10.2896 488.983L101.512 709.215C114.504 740.578 139.422 765.496 170.785 778.488L391.017 869.71C422.38 882.702 457.62 882.702 488.983 869.71L709.215 778.488C740.578 765.496 765.496 740.578 778.488 709.215L869.71 488.983C882.702 457.62 882.702 422.38 869.71 391.017L778.488 170.785C765.496 139.422 740.578 114.504 709.215 101.512L488.983 10.2896Z"
-                  fill="url(#pattern0)"
-                ></path>
-                <defs>
-                  <pattern
-                    id="pattern0"
-                    patternContentUnits="objectBoundingBox"
-                    width="1"
-                    height="1"
-                  ></pattern>
-                  <image
-                    id="image0_57_4"
-                    width="960"
-                    height="900"
-                    href="assets/img/960x900/4.jpg"
-                  ></image>
-                </defs>
-              </svg>
-            </div>
+            <div class="position-relative p-2"></div>
           </div>
           <div
             class="col-lg-5 order-lg-1 aos-init aos-animate"

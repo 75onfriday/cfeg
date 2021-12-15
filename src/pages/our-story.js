@@ -98,7 +98,7 @@ const StoryPage = () => (
               </div>
 
               <div
-                class="col-sm-6 mb-4 mb-sm-0 aos-init aos-animate"
+                class="col-sm-6 mb-4 aos-init aos-animate"
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
@@ -113,6 +113,30 @@ const StoryPage = () => (
                 class="col-sm-6 aos-init aos-animate"
                 data-aos="fade-left"
                 data-aos-delay="350"
+              >
+                <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
+                  <p class="mb-0">
+                    Increase the reading proficiency of students reading on a
+                    6th-grade level to the 11th-grade level
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 mb-4 mb-sm-0 aos-init aos-animate"
+                data-aos="fade-left"
+                data-aos-delay="400"
+              >
+                <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
+                  <p class="mb-0">
+                    Helped 15 students through the course recovery program,
+                    increasing scores by 27%
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 aos-init aos-animate"
+                data-aos="fade-left"
+                data-aos-delay="450"
               >
                 <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
                   <p class="mb-0">
