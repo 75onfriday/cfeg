@@ -221,7 +221,7 @@ const IndexPage = () => (
               </ul>
               <div class="pt-4 d-grid">
                 <a href="#!" class="btn btn-outline-primary btn-lg">
-                  Sign up now
+                  Learn More
                 </a>
               </div>
             </div>
@@ -261,7 +261,7 @@ const IndexPage = () => (
               </ul>
               <div class="pt-4 d-grid">
                 <a href="#!" class="btn btn-lg btn-outline-primary">
-                  Sign up now
+                  Learn More
                 </a>
               </div>
             </div>
@@ -285,24 +285,24 @@ const IndexPage = () => (
               <ul class="list-unstyled mb-0 flex-grow-1">
                 <li class="d-flex align-items-center mb-1">
                   <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>20GB Space</span>
+                  <span>6-week curriculum</span>
                 </li>
                 <li class="d-flex align-items-center mb-1">
                   <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>1 user at a time</span>
+                  <span>Mentorships and Internships</span>
                 </li>
                 <li class="d-flex align-items-center mb-1">
                   <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>25K files upload</span>
+                  <span>Instructed by experts in the field</span>
                 </li>
                 <li class="d-flex align-items-center mb-1">
                   <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>3 Months support</span>
+                  <span>Enrichment and fun</span>
                 </li>
               </ul>
               <div class="pt-4 d-grid">
                 <a href="#!" class="btn btn-lg btn-outline-primary">
-                  Sign up now
+                  Learn More
                 </a>
               </div>
             </div>

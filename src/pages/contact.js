@@ -36,11 +36,7 @@ const ContactPage = () => (
         <div class="row">
           <div class="col-md-8 col-lg-7 mb-7 mb-md-0 me-auto">
             <div class="position-relative">
-              <h1>Contact form</h1>
-              <p class="mb-3 w-lg-75">
-                Use the contact form if you have questions about our products.
-                Our sales team will be happy to help you:
-              </p>
+              <h1>We Can't Wait to Hear From You!</h1>
               <div class="width-60 pt-1 bg-primary mb-5"></div>
 
               <form
