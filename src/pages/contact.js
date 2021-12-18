@@ -36,7 +36,7 @@ const ContactPage = () => (
         <div class="row">
           <div class="col-md-8 col-lg-7 mb-7 mb-md-0 me-auto">
             <div class="position-relative">
-              <h1>We Can't Wait to Hear From You!</h1>
+              <h1>This needs to be changed and have an intro paragraph</h1>
               <div class="width-60 pt-1 bg-primary mb-5"></div>
 
               <form

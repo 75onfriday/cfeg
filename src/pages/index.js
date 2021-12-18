@@ -65,7 +65,7 @@ const IndexPage = () => (
                 <ul class="text-white list-unstyled carousel-layers mb-0">
                   <li data-carousel-layer="fade-end">
                     <h2 class="d-inline-block bg-primary px-2 py-3 lh-1 mb-0 fs-1">
-                      Spring Enrollment Closes on Dec. 27th
+                      Enroll in Classes Now
                     </h2>
                   </li>
                 </ul>
@@ -102,7 +102,7 @@ const IndexPage = () => (
               class="position-relative mb-5 display-4 aos-init aos-animate"
               data-aos="fade-up"
             >
-              Who Are <span class="text-gradient">We</span>
+              Who We <span class="text-gradient">Are</span>
             </h2>
             <p
               class="w-lg-85 ms-auto mb-0 aos-init aos-animate"
@@ -114,7 +114,13 @@ const IndexPage = () => (
               affordable price.
             </p>
           </div>
-          <div class="col-lg-6 col-xl-5 order-lg-1"></div>
+          <div class="col-lg-6 col-xl-5 order-lg-1">
+            <StaticImage
+              src="../images/home-one.jpg"
+              class="img-fluid rounded-blob shadow-lg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -127,7 +133,13 @@ const IndexPage = () => (
             data-aos="fade-up"
             data-aos-delay="50"
           >
-            <div class="position-relative p-2"></div>
+            <div class="position-relative p-2">
+              <StaticImage
+                src="../images/home-two.jpg"
+                class="img-fluid rounded-blob shadow-lg"
+                alt=""
+              />
+            </div>
           </div>
           <div
             class="col-lg-5 order-lg-1 aos-init aos-animate"
@@ -150,168 +162,151 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section class="position-relative" id="next">
-      <div class="container">
-        <div class="row justify-content-between align-items-end">
-          <div class="col-lg-10 col-xl-8 mx-auto text-center">
-            <span
-              class="h6 mb-2 d-block aos-init aos-animate"
+    <section class="position-relative">
+      <div class="w-100 h-75 bg-dark position-absolute start-0 top-0 rounded-top-end-block">
+        <svg
+          class="position-absolute start-0 bottom-0 text-white"
+          preserveAspectRatio="none"
+          width="100%"
+          height="96"
+          viewBox="0 0 1460 120"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M122 22.8261L0 0V120H1460V0L1338 22.8261C1217 44.1304 973 88.2609 730 88.2609C487 88.2609 243 44.1304 122 22.8261Z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+      <div class="container position-relative py-9 py-lg-11 z-index-1">
+        <div class="row mb-5 align-items-center">
+          <div
+            class="col-md-7 mb-4 mb-md-0 aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <h2
+              class="text-white display-4 aos-init aos-animate"
               data-aos="fade-up"
             >
-              Our Services
-            </span>
-
-            <div data-aos="fade-up" class="aos-init aos-animate">
-              <svg
-                class="width-80 h-auto text-primary mb-5"
-                preserveAspectRatio="none"
-                width="100%"
-                height="6"
-                viewBox="0 0 63 4"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.119995 2.79013C0.119995 2.79013 26.91 -0.589865 62.82 1.93013"
-                  stroke="currentColor"
-                  stroke-width="2"
-                ></path>
-              </svg>
-            </div>
+              Our <span class="text-gradient">Services</span>
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-4 mb-4 mb-lg-0 aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <article class="card card-hover text-center hover-shadow-lg overflow-hidden border-0 rounded-3 shadow-sm">
+              <div class="card-body pb-5 position-relative">
+                <h5 class="py-3 mb-0">Credit Recovery</h5>
+                <p class="mb-0 px-lg-4">
+                  Avoid failure and earn academic credit, "boost your gpa"
+                </p>
+                <p class="mb-0">
+                  <div class="d-grid mb-0">
+                    <a
+                      href="/our-services"
+                      class="btn btn-primary btn-hover-arrow rounded-pill hover-lift"
+                    >
+                      <span>Get started</span>
+                    </a>
+                  </div>
+                </p>
+              </div>
+            </article>
+          </div>
+          <div
+            class="col-lg-4 mb-4 mb-lg-0 aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <article class="card card-hover text-center hover-shadow-lg overflow-hidden border-0 rounded-3 shadow-sm">
+              <div class="card-body pb-5 position-relative">
+                <h5 class="py-3 mb-0">Virtual and in Person Classes</h5>
+                <p class="mb-0 px-lg-4">
+                  No structured curriculums, learn all year round, "your pace
+                  your time"
+                </p>
+                <p class="mb-0">
+                  <div class="d-grid mb-0">
+                    <a
+                      href="/our-services"
+                      class="btn btn-primary btn-hover-arrow rounded-pill hover-lift"
+                    >
+                      <span>Get started</span>
+                    </a>
+                  </div>
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up">
+            <article class="card card-hover text-center hover-shadow-lg overflow-hidden border-0 rounded-3 shadow-sm">
+              <div class="card-body pb-5 position-relative">
+                <h5 class="py-3 mb-0">Career and College Development</h5>
+                <p class="mb-0 px-lg-4">
+                  We intergrate experts, professionals, internships, and
+                  mentorships into our curriculums, "building your path now not
+                  later to real life skills and higher learning"
+                </p>
+                <p class="mb-0">
+                  <div class="d-grid mb-0">
+                    <a
+                      href="/our-services"
+                      class="btn btn-primary btn-hover-arrow rounded-pill hover-lift"
+                    >
+                      <span>Get started</span>
+                    </a>
+                  </div>
+                </p>
+              </div>
+            </article>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="position-relative bg-light">
-      <div class="container">
-        <div class="row grid-separator">
-          <div class="col-lg-4 py-9 py-lg-11 px-4 px-xl-5">
-            <div class="card bg-transparent border-0 h-100">
-              <h5 class="mb-4">Course Recovery</h5>
-              <div class="mb-4">
-                <h2 class="display-3 mb-0">
-                  <sup class="fs-6 align-top text-muted lh-1 fw-normal">$</sup>
-                  <span class="price">85</span>
-                  <sub class="fs-6 text-muted lh-1 fw-normal align-bottom">
-                    {" "}
-                    / Beginning Monthly Rate
-                  </sub>
-                </h2>
-              </div>
-
-              <h6 class="mb-3">Included</h6>
-              <ul class="list-unstyled mb-0 flex-grow-1">
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>All Core Courses</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Weekly Coaching</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Weekly Extensions</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Tutoring</span>
-                </li>
-              </ul>
-              <div class="pt-4 d-grid">
-                <a href="#!" class="btn btn-outline-primary btn-lg">
-                  Learn More
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-9 py-lg-11 px-4 px-xl-5">
-            <div class="card bg-transparent border-0 h-100">
-              <h5 class="mb-4">High School Diploma and Classes</h5>
-              <div class="mb-4">
-                <h2 class="display-3 mb-0">
-                  <sup class="fs-6 align-top text-muted lh-1 fw-normal">$</sup>
-                  <span class="price">450</span>
-                  <sub class="fs-6 text-muted lh-1 fw-normal align-bottom">
-                    {" "}
-                    / Beginning Monthly Rate
-                  </sub>
-                </h2>
-              </div>
-              <h6 class="mb-3">Included</h6>
-              <ul class="list-unstyled mb-0 flex-grow-1">
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>All Core Courses</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Advance and Honors Courses</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Virtual or Online</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Small group sessions</span>
-                </li>
-              </ul>
-              <div class="pt-4 d-grid">
-                <a href="#!" class="btn btn-lg btn-outline-primary">
-                  Learn More
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-9 py-lg-11 px-4 px-xl-5">
-            <div class="card bg-transparent border-0 h-100">
-              <h5 class="mb-4">Summer and Vocational Programs</h5>
-              <div class="mb-4">
-                <h2 class="display-3 mb-0">
-                  <sup class="fs-6 align-top text-muted lh-1 fw-normal">$</sup>
-                  <span class="price">175</span>
-                  <sub class="fs-6 text-muted lh-1 fw-normal align-bottom">
-                    {" "}
-                    / Starting Rate
-                  </sub>
-                </h2>
-              </div>
-
-              <h6 class="mb-3">Included</h6>
-              <ul class="list-unstyled mb-0 flex-grow-1">
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>6-week curriculum</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Mentorships and Internships</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Instructed by experts in the field</span>
-                </li>
-                <li class="d-flex align-items-center mb-1">
-                  <i class="me-2 fs-4 bi bi-check lh-sm text-muted"></i>
-                  <span>Enrichment and fun</span>
-                </li>
-              </ul>
-              <div class="pt-4 d-grid">
-                <a href="#!" class="btn btn-lg btn-outline-primary">
-                  Learn More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="position-relative text-center">
+      <iframe
+        width="560"
+        height="315"
+        class="m-auto"
+        src="https://www.youtube.com/embed/XLhOAppLLeA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </section>
 
     <section class="position-relative bg-gradient-secondary text-white">
+      <svg
+        class="position-absolute start-0 top-0 flip-y text-white"
+        width="100%"
+        height="48"
+        preserveAspectRatio="none"
+        viewBox="0 0 1870 210"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="currentColor"
+          d="M977.9,76.2 C475.2,-17.4 0.2,132.5 0.2,132.5 L0.2,275.5 L1891.3,275.5 L1891.3,0.7 C1891.3,0.7 1480.6,169.8 977.9,76.2 Z"
+        ></path>
+      </svg>
+      <svg
+        class="position-absolute start-0 bottom-0 text-white"
+        width="100%"
+        height="48"
+        preserveAspectRatio="none"
+        viewBox="0 0 1870 210"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="currentColor"
+          d="M977.9,76.2 C475.2,-17.4 0.2,132.5 0.2,132.5 L0.2,275.5 L1891.3,275.5 L1891.3,0.7 C1891.3,0.7 1480.6,169.8 977.9,76.2 Z"
+        ></path>
+      </svg>
       <div class="container py-9 py-lg-11">
         <div class="d-flex mb-5 align-items-center"></div>
         <div

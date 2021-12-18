@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { StaticImage } from "gatsby-plugin-image"
 
 const StoryPage = () => (
   <Layout>
@@ -38,6 +39,7 @@ const StoryPage = () => (
               confidence was shook, but I managed to overcome and attend college
               and graduate school.
             </p>
+            <StaticImage class="mb-3" src="../images/ms-cannon.jpg" />
             <p
               class="mb-0 aos-init aos-animate"
               data-aos="fade-up"

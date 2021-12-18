@@ -48,18 +48,11 @@ const Header = ({ siteTitle }) => (
                 Our Story
               </a>
             </li>
-            <li className="nav-item dropdown">
-              <NavDropdown title="our services" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/course-recovery">
-                  Course Recovery
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/hs-diploma">
-                  High School Diploma and Classes
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/vocational">
-                  CFEG Community Programs
-                </NavDropdown.Item>
-              </NavDropdown>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/our-services">
+                Our Services
+              </Link>
             </li>
 
             <li className="nav-item">
