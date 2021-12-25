@@ -11,12 +11,12 @@ const Footer = () => (
     <div class="container pt-9 pt-lg-11 pb-5">
       <div class="row">
         <div class="col-md-3 col-sm-6 mb-5">
-          <h5 class="mb-4">CFEG, INC.</h5>
-          <p>70A Queen Street Frederiksted</p>
+          <h5 class="mb-4">The Center For Educational Growth, Inc.</h5>
+          <p>70A Queen Street, Frederiksted</p>
           <p>St. Croix, USVI 00840</p>
         </div>
         <div class="col-md-4 col-sm-6 mb-5">
-          <h5 class="mb-4">Let's Start a Conversation</h5>
+          <h5 class="mb-4">Let's Talk About A New Way To Learn</h5>
           <div class="footer-info-details">
             <p>
               <a href="mailus@domain.com" class="link-hover-underline">

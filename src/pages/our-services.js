@@ -10,12 +10,43 @@ const OurServicesPage = () => (
       <div class="container py-9">
         <div class="row align-items-center">
           <div class="col-md-7 mb-4 mb-md-0">
-            <h1 class="mb-0 display-5">Our Services</h1>
+            <h1 class="mb-0 display-5">
+              CFEG is educating differently and this is how -{" "}
+            </h1>
           </div>
-          <p>
-            Needs an intro sentence or two that incorparates all services in a
-            general statment
+          <p className="btn-top">
+            By offering three key service types to parents and students CFEG is
+            allowing the following to be accomplished with its education system:
           </p>
+          <ul class="services-list">
+            <li>
+              - <span class="underline-intro">Course Recovery</span> with CFEG,
+              <b>offers</b> new and unique approaches to the type of classes and
+              what is taught in the classroom, so that no student leaves the
+              classroom without credit, a better grade, or an increase in
+              knowledge in any subject a student may find difficult;{" "}
+            </li>
+            <li>
+              -
+              <span class="underline-intro">
+                High School Diploma and Classes
+              </span>
+              with CFEG, <b>allows</b> young people to learn how to become
+              professionals during school through new blended education
+              curriculums which, helps students to accelerate to higher grades,
+              be challenged, and choose classes that fit their strengths;
+            </li>
+            <li>
+              -
+              <span class="underline-intro">
+                Summer and Vocational Programs
+              </span>
+              with CFEG, <b>prepares</b> students by adding vocation and
+              enrichment programs to the curriculum, so students can gain real
+              life experience while learning how to build professional skills
+              and career pathways.
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -48,28 +79,36 @@ const OurServicesPage = () => (
 
                 <ul class="text-center list-unstyled py-4 flex-grow-1">
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    Weekly Coaching
+                    Retake Classes
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
-                    Increase Your GPA and Get Graduation Credits
+                    Get Better Grades
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
-                    Tutoring
+                    Get Graduation Credits
+                  </li>
+                  <li class="pb-2 mb-2 border-dashed border-bottom d-table">
+                    Increase Your GPA
                   </li>
                 </ul>
                 <div class="d-grid">
                   <a
+                    href="#modalBasic"
+                    data-bs-toggle="modal"
+                    aria-expanded="false"
+                    class="modal-text"
+                  >
+                    Learn more about Course Recovery
+                  </a>
+                  <a
                     href="/contact"
-                    class="btn btn-outline-secondary btn-hover-arrow rounded-pill hover-lift"
+                    class="btn btn-outline-secondary btn-top rounded-pill hover-lift"
                   >
                     <span>Get started</span>
                   </a>
                 </div>
               </div>
             </div>
-
             <div
               class="col-md-4 mb-5 mb-md-0 aos-init aos-animate"
               data-aos="fade-up"
@@ -85,7 +124,7 @@ const OurServicesPage = () => (
                       data-as-annual="16"
                       data-as-monthly="29"
                     >
-                      450
+                      120
                     </div>
                   </div>
                   <span class="badge bg-light text-muted rounded-pill">
@@ -95,26 +134,28 @@ const OurServicesPage = () => (
 
                 <ul class="text-center list-unstyled py-4 flex-grow-1">
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
-                    All Core Courses
+                    Individualized Core Classes
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
                     Advance and Honors Courses
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
-                    Virtual or Online
+                    Virtual and In-Person Learning
                   </li>
-                  <li class="pb-2 mb-2 d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
-                    Small group sessions
-                  </li>
+                  <li class="pb-2 mb-2 d-table">Small group sessions</li>
                 </ul>
                 <div class="d-grid">
                   <a
+                    href="#modalBasic2"
+                    data-bs-toggle="modal"
+                    aria-expanded="false"
+                    class="modal-text"
+                  >
+                    Learn more about our High School Diploma and Classes
+                  </a>
+                  <a
                     href="/contact"
-                    class="btn btn-outline-secondary btn-hover-arrow rounded-pill hover-lift"
+                    class="btn btn-outline-secondary btn-top rounded-pill hover-lift"
                   >
                     <span>Get started</span>
                   </a>
@@ -141,32 +182,36 @@ const OurServicesPage = () => (
                     </div>
                   </div>
                   <span class="badge text-muted rounded-pill bg-light">
-                    Starting Rate
+                    Beginning Monthly Rate
                   </span>
                 </div>
 
                 <ul class="text-center list-unstyled py-4 flex-grow-1">
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
-                    6-week curriculum
-                  </li>
-                  <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
                     Mentorships and Internships
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
-                    Instructed by experts in the field
+                    Instruction by experts in the field
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    <i class="bi bi-patch-check-fill fs-5 lh-1 me-2 text-success align-middle"></i>
                     Enrichment and fun
+                  </li>
+                  <li class="pb-2 mb-2 border-dashed border-bottom d-table">
+                    Education and skill development the full year
                   </li>
                 </ul>
                 <div class="d-grid">
                   <a
+                    href="#modalBasic3"
+                    data-bs-toggle="modal"
+                    aria-expanded="false"
+                    class="modal-text"
+                  >
+                    Learn more about our Summer and Vocational Programs
+                  </a>
+                  <a
                     href="/contact"
-                    class="btn btn-outline-secondary btn-hover-arrow rounded-pill hover-lift"
+                    class="btn btn-outline-secondary rounded-pill hover-lift"
                   >
                     <span>Get started</span>
                   </a>
@@ -178,201 +223,241 @@ const OurServicesPage = () => (
       </div>
     </section>
 
-    <section class="position-relative border-bottom">
-      <div class="container py-9 py-lg-11 position-relative z-index-1">
-        <div class="row align-items-center">
-          <div class="col-md-10 col-lg-9 col-xl-8 mx-auto">
-            <div>
-              <nav class="mb-4">
-                <div class="nav nav-pills nav-fill" role="tablist">
-                  <a
-                    class="nav-link"
-                    data-bs-toggle="tab"
-                    href="#tab3-home"
-                    role="tab"
-                    aria-selected="false"
-                  >
-                    Credit Recovery
-                  </a>
-                  <a
-                    class="nav-link"
-                    data-bs-toggle="tab"
-                    href="#tab3-profile"
-                    role="tab"
-                    aria-selected="false"
-                  >
-                    High School Diploma and Classes
-                  </a>
-                  <a
-                    class="nav-link active"
-                    data-bs-toggle="tab"
-                    href="#tab3-contact"
-                    role="tab"
-                    aria-selected="true"
-                  >
-                    Summer and Vocational Programs
-                  </a>
-                </div>
-              </nav>
-              <div class="tab-content">
-                <div class="tab-pane fade" id="tab3-home" role="tabpanel">
-                  <p>
-                    Credit recovery is a term used to describe the retaking of a
-                    course. High Schoolers can retake courses they failed or
-                    retake courses to improve a grade. Recovery classes reteach
-                    only the concepts or lessons you did not understand during
-                    the school year. Depending on how much time you spend on
-                    your coursework, you can finish a course in as little as 2
-                    weeks. If you have a grade of 59 or 69 you should retake the
-                    classes as a recovery course. If your grade point
-                    average(GPA) is 70 or 75 you should consider retaking
-                    classes with grades of 70’s to improve your overall GPA.
-                    Failure is not an option so make sure you sign up with our
-                    course recovery program at CFEG we are here for you.
-                  </p>
-                  <p>
-                    All Core Courses and some electives are available, with
-                    weekly coaching, tutoring and weekly extensions when needed.
-                  </p>
-                  <p>
-                    Students pay $85 per month for 1 course or $160.00 per month
-                    for 2 courses
-                  </p>
-                  <p>
-                    There is year round open enrollment and students from any
-                    high school public or private can enroll. Simply contact us
-                    and request a registration link.
-                  </p>
-                  <div class="d-grid">
-                    <a
-                      href="/contact"
-                      class="btn btn-outline-secondary btn-hover-arrow rounded-pill hover-lift"
-                    >
-                      <span>Get started</span>
-                    </a>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="tab3-profile" role="tabpanel">
-                  <p>
-                    Earn your high school diploma with flexible scheduling and a
-                    challenging curriculum{" "}
-                  </p>
-                  <p>
-                    A CFEG Diploma means that students have met the Virgin
-                    Islands Board of Education course requirements. 21 credits
-                    are needed for a diploma. Students can choose a College
-                    tract that would require 15 core courses; A General tract
-                    that would require 12 core courses with interest based
-                    electives or A Vocational tract that would require 12 core
-                    courses, electives to include a practicum.
-                  </p>
-                  <p>
-                    Included in the diploma program are all Core Courses in
-                    Math, Science, Social Studies, and English; Advanced Core
-                    Courses in Math, Science, Social Studies, and English;
-                    Hands-on electives and fine arts enrichment courses.{" "}
-                  </p>
-                  <p>
-                    All students are required to complete Community Service
-                    yearly.
-                  </p>
-                  <p>
-                    Classes are small and are conducted 2-3 times weekly with
-                    instructors/teachers.
-                  </p>
-                  <p>
-                    Payments are $120 per month per course or $450 per month for
-                    4 courses
-                  </p>
-                  <p>
-                    Anyone interested in getting a high school diploma,
-                    accelerating high school students, international or transfer
-                    students, transitioning 8th and 9th-12th grade students.
-                    Learning is self paced and individualized.
-                  </p>
-                  <p>
-                    CFEG accepts students year round however most students would
-                    wish to start in our Spring (January) or Fall (August)
-                    Enrollment. Usually students complete courses between 10-18
-                    weeks.{" "}
-                  </p>
-                  <div class="d-grid">
-                    <a
-                      href="/contact"
-                      class="btn btn-outline-secondary btn-hover-arrow rounded-pill hover-lift"
-                    >
-                      <span>Get started</span>
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane fade active show"
-                  id="tab3-contact"
-                  role="tabpanel"
-                >
-                  <h6>CFEG Community Programs</h6>
-                  <p>
-                    Our Summer School Program offers students an opportunity to
-                    take core classes they failed during the school year.
-                    Students have six weeks to complete the courses and can take
-                    up to 2 classes for a full credit. The credits can be
-                    transferred to their home school. Students should bring a
-                    summer school referral form with a final report card
-                    attached from their home school counselor or school
-                    registrar. The cost of our summer school is $175.00
-                  </p>
-                  <p>
-                    Our Summer Enrichment Program offers students activities
-                    such as Art and Surfing. Our offerings depend on grants and
-                    sponsor funding and will be announced in May. Summer
-                    enrichment is usually free to the community.
-                  </p>
-                  <h6>Vocational and Interest Based Programs</h6>
-                  <p>
-                    These programs are offered to the community so students can
-                    experience unique ideas by taking new and innovative
-                    classes. These Courses develop students’ creativity. Hones
-                    their critical thinking and helps them build better decision
-                    making skills. These courses are:{" "}
-                  </p>
-                  <ul>
-                    <li>
-                      ART & DRAWING (beginning & intermediate) offered online 3
-                      days weekly from 4:00-5:00pm
-                    </li>
-                    <li>
-                      MARTIAL ARTS (beginning, intermediate & advance) in-person
-                      at school/office on St Croix only, Tuesdays & Thursdays (2
-                      days) weekly 3:00-4:00pm the cost is $100.00 for 5 weeks
-                      and includes a uniform.{" "}
-                    </li>
-                    <li>
-                      PYTHON PROGRAMMING/CODING (beginning & intermediate) TBA
-                    </li>
-                    <li>
-                      MUSIC (beginning & intermediate) online Mondays &
-                      Wednesdays (2 days) weekly 3:00-4:00pm{" "}
-                    </li>
-                    <li>
-                      DIVERSITY/VIRTUE PROJECT the focus is on teaching students
-                      decision making TBA
-                    </li>
-                  </ul>
-                  <div class="d-grid">
-                    <a
-                      href="/contact"
-                      class="btn btn-outline-secondary btn-hover-arrow rounded-pill hover-lift"
-                    >
-                      <span>Get started</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div
+      class="modal fade"
+      id="modalBasic"
+      tabindex="-1"
+      aria-labelledby="modalBasicLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content border-0">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title">COURSE RECOVERY</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body py-5 border-0">
+            <h6>Type of Service </h6>
+            <p>
+              Course recovery is a term used to describe the retaking of a
+              course. High Schoolers can retake courses they failed or retake
+              courses to improve a grade.
+            </p>
+            <h6>What’s Included</h6>
+            <ul>
+              <li>
+                Recovery classes reteaching the concepts or lessons a student
+                did not understand during the school year
+              </li>
+              <li>
+                {" "}
+                Increasing grade point average or GPA if a student failed and
+                received a grade of 59-69 CFEG course recovery provides for a
+                better grade in that course of 70 through 90 to improve
+                students’ overall GPA
+              </li>
+              <li>
+                {" "}
+                All Core Courses and some electives are available with CFEG, and
+                its course recovery services include weekly coaching, daily
+                tutoring, and weekly extensions when needed. 
+              </li>
+            </ul>
+            <h6>Pricing</h6>
+            <p class="mb-0">
+              Students pay $85 per month for 1 course or $160.00 per month for 2
+              courses
+            </p>
+            <h6 class="btn-top">Eligibility</h6>
+            <p class="mb-0">
+              CFEG’s course recovery is available for enrollment all year round,
+              and all high school students from any school system (public or
+              private) are eligible to attend.
+            </p>
+          </div>
+          <div class="modal-footer bg-light border-0">
+            <button
+              type="button"
+              class="btn btn-white btn-sm"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalBasic2"
+      tabindex="-1"
+      aria-labelledby="modalBasic2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content border-0">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title">HIGH SCHOOL DIPLOMA AND CLASSES</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body py-5 border-0">
+            <h6>Type of Service</h6>
+            <p>
+              A CFEG Diploma means that students have met the Virgin Islands’
+              Board of Education course requirements, which includes 21 credits.
+              However, CFEG students can also choose educational tracts not
+              offered in public and private schools including any of the
+              following:
+            </p>
+            <p class="mb-0">
+              <b>College tract</b> that require 15 core courses;
+              <br />
+              <b>General tract</b> that require 12 core courses with interest
+              based electives;
+              <br />
+              <b>Vocational tract</b> that require 12 core courses, electives
+              and a practicum;
+            </p>
+            <h6 class="btn-top">What’s Also Included</h6>
+            <ul>
+              <li>
+                All Core Courses in Math, Science, Social Studies, and English;{" "}
+              </li>
+              <li>
+                Advanced Core Courses in Math, Science, Social Studies, and
+                English;{" "}
+              </li>
+              <li>
+                Hands-on electives, humanities, music, sports, fine arts,
+                enrichment courses, and community Service yearly;
+              </li>
+              <li>
+                Small classes conducted 2-3 times weekly with instructors and
+                teachers
+              </li>
+            </ul>
+            <h6>Pricing </h6>
+            <p class="mb-0">
+              Parents pay $120 per month per course or $450 per month for 4
+              courses
+            </p>
+            <h6 class="btn-top">Eligibility </h6>
+            <p class="mb-0">
+              CFEG’s high school diploma and class programs are self paced and
+              individualized, and open toall students interested in getting a
+              high school diploma including, younger students seeking to
+              accelerate into high school, and international or transfer
+              students (transitioning 8th and 9th-12th grade students). CFEG
+              also accepts all students all year round!
+            </p>
+          </div>
+          <div class="modal-footer bg-light border-0">
+            <button
+              type="button"
+              class="btn btn-white btn-sm"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalBasic3"
+      tabindex="-1"
+      aria-labelledby="modalBasic3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content border-0">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title">SUMMER AND VOCATIONAL PROGRAM </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body py-5 border-0">
+            <h6>Type of Service</h6>
+            <p>
+              CFEG’s Summer school and vocational programs offer students an
+              opportunity to take any of the above CFEG services in the summer
+              (Course Recovery or High School Diploma and Classes) and, offers
+              students career base activities along with courses that develop
+              life skills and entrepreneurship for students.
+            </p>
+            <h6>Pricing</h6>
+            <p class="mb-0">
+              The cost of CFEG’s summer and vocational program is $175.00 per
+              month, or FREE for students who qualify for CFEG’s Summer
+              Enrichment Scholarships
+            </p>
+            <p>Example Of What’s Included From 2021-2022</p>
+            <ul>
+              <li>
+                <b>ART & DRAWING</b> (beginning & intermediate) offered online 3
+                days weekly from 4:00-5:00pm; digital design, logos, color
+                schemes, and presentation
+              </li>
+              <li>
+                <b>MARTIAL ARTS AND SURFING</b> (beginning, intermediate &
+                advance) in-person at school/office on St Croix only, Tuesdays &
+                Thursdays (2 days) weekly 3:00-4:00pm the cost is $100.00 for 5
+                weeks and includes a uniform; physical fitness, mental fitness,
+                behavioral health and sports therapy;
+              </li>
+              <li>
+                <b>MUSIC</b> (beginning & intermediate) online  Mondays &
+                Wednesdays (2 days) weekly 3:00-4:00pm; beat and music making,
+                chords, and melody production{" "}
+              </li>
+              <li>
+                <b>PYTHON PROGRAMMING/CODING</b> (beginning & intermediate);
+                coding, branding, and web design
+              </li>
+              <li>
+                <b>DIVERSITY/VIRTUE PROJECT</b> the focus is on teaching
+                students decision making
+              </li>
+              <li>
+                <b>AGRICULTURE</b> sustainable farming, medicinal plant theory,
+                farm business formation{" "}
+              </li>
+            </ul>
+            <h6 class="btn-top">Eligibility</h6>
+            <p class="mb-0">
+              CFEG’s summer and vocational programs are open to all students any
+              age any grade.
+            </p>
+          </div>
+          <div class="modal-footer bg-light border-0">
+            <button
+              type="button"
+              class="btn btn-white btn-sm"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 )
 

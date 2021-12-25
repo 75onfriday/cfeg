@@ -6,7 +6,23 @@ import Seo from "../components/seo"
 const ContactPage = () => (
   <Layout>
     <Seo title="404: Not found" />
-    <section class="position-relative">
+    <section class="position-relative bg-tint-primary">
+      <svg
+        class="w-100 text-white position-absolute bottom-0 start-0"
+        preserveAspectRatio="none"
+        width="1200"
+        height="60"
+        viewBox="0 0 1200 148"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 126.857L1200 0V148H0V126.857Z"
+          fill="currentColor"
+        ></path>
+      </svg>
       <div class="container position-relative pt-14 pb-9">
         <div class="row align-items-center pb-5 pb-lg-7 pt-lg-9">
           <div
@@ -20,109 +36,117 @@ const ContactPage = () => (
               Let’s Start a Conversation
             </h1>
             <p class="mb-0 lead w-lg-85">
-              Explore our education methods and learn more about how CFEG
-              programs and teachers provide students and parents the options to
-              direct their learning. Talk with us about creating a customized
-              educational experience that blends learning strategies with
-              personalized academic instruction.
+              Contact us to explore our education methods and learn more about
+              how CFEG’s programs and teachers provide students and parents the
+              options they need. Talk with us about creating a customized
+              educational experience for YOU.
             </p>
           </div>
         </div>
       </div>
     </section>
-
     <section class="position-relative">
       <div class="container py-9 py-lg-11">
-        <div class="row">
-          <div class="col-md-8 col-lg-7 mb-7 mb-md-0 me-auto">
-            <div class="position-relative">
-              <h1>This needs to be changed and have an intro paragraph</h1>
-              <div class="width-60 pt-1 bg-primary mb-5"></div>
+        <div class="shadow-lg rounded-xl px-4 px-lg-6 py-5 py-lg-7">
+          <div class="row">
+            <div class="col-md-8 col-lg-7 mb-7 mb-md-0 me-auto">
+              <div class="position-relative">
+                <h5>
+                  TELL US ABOUT YOU AND WHAT EDUCATION PROGRAMS AND EXPERIENCE
+                  YOUR LOOKING FOR
+                </h5>
+                <p>
+                  Let’s talk more about what CFEG not only can offer you as a
+                  student but build for you as a student. We are here with you
+                  and to help you “Direct Your Learning”.
+                </p>
+                <div class="width-60 pt-1 bg-primary mb-5"></div>
 
-              <form
-                action="#"
-                method="post"
-                role="form"
-                class="needs-validation mb-5 mb-lg-7"
-                novalidate=""
-              >
-                <div class="row">
-                  <div class="col-sm-6 mb-3">
-                    <label class="form-label" for="name">
-                      Your name
-                    </label>
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="John Doe"
-                      required=""
-                    />
-                  </div>
+                <form
+                  action="#"
+                  method="post"
+                  role="form"
+                  class="needs-validation mb-5 mb-lg-7"
+                  novalidate=""
+                >
+                  <div class="row">
+                    <div class="col-sm-6 mb-3">
+                      <label class="form-label" for="name">
+                        Your name
+                      </label>
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="John Doe"
+                        required=""
+                      />
+                    </div>
 
-                  <div class="col-sm-6 mb-3">
-                    <label class="form-label" for="email">
-                      Your email address
-                    </label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="john@gmail.com"
-                      aria-label="jackwayley@gmail.com"
-                      required=""
-                    />
-                    <div class="invalid-feedback">
-                      Please enter a valid email address
+                    <div class="col-sm-6 mb-3">
+                      <label class="form-label" for="email">
+                        Your email address
+                      </label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="john@gmail.com"
+                        aria-label="jackwayley@gmail.com"
+                        required=""
+                      />
+                      <div class="invalid-feedback">
+                        Please enter a valid email address
+                      </div>
+                    </div>
+
+                    <div class="w-100"></div>
+
+                    <div class="col-sm-12 mb-3">
+                      <label class="form-label" for="subject">
+                        Subject
+                      </label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        id="subject"
+                        placeholder="Web Design"
+                        required=""
+                        pwa2-uuid="EDITOR/input-09A-DCF-22300-4A0"
+                        pwa-fake-editor=""
+                      />
                     </div>
                   </div>
 
-                  <div class="w-100"></div>
-
-                  <div class="col-sm-12 mb-3">
-                    <label class="form-label" for="subject">
-                      Subject
+                  <div class="mb-3">
+                    <label for="message" class="form-label">
+                      Message
                     </label>
-                    <input
-                      type="text"
+                    <textarea
                       class="form-control"
-                      name="subject"
-                      id="subject"
-                      placeholder="Web Design"
+                      name="message"
+                      placeholder="Hi there...."
                       required=""
-                      pwa2-uuid="EDITOR/input-09A-DCF-22300-4A0"
-                      pwa-fake-editor=""
+                    ></textarea>
+                  </div>
+
+                  <div class="d-md-flex justify-content-between align-items-center">
+                    <p class="small mb-4 text-muted mb-md-0">
+                      We'll get back to you in 1-2 business days.
+                    </p>
+                    <input
+                      type="submit"
+                      name="submit"
+                      value="Submit message"
+                      id="sendBtn"
+                      class="btn btn-lg btn-primary"
                     />
                   </div>
-                </div>
-
-                <div class="mb-3">
-                  <label for="message" class="form-label">
-                    Message
-                  </label>
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    placeholder="Hi there...."
-                    required=""
-                  ></textarea>
-                </div>
-
-                <div class="d-md-flex justify-content-between align-items-center">
-                  <p class="small mb-4 text-muted mb-md-0">
-                    We'll get back to you in 1-2 business days.
-                  </p>
-                  <input
-                    type="submit"
-                    name="submit"
-                    value="Submit message"
-                    id="sendBtn"
-                    class="btn btn-lg btn-primary"
-                  />
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>

@@ -6,12 +6,33 @@ import Helmet from "react-helmet"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
+import homeLoop from "../images/cfeg-loop.gif"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+    <section class="position-relative overflow-hidden bg-gradient-secondary text-white">
+      <div class="w-100 h-100 opacity-25 position-absolute end-0 top-0 bg-cover bg-no-repeat bg-center">
+        <div
+          class="jarallax bg-dark h-100 w-100"
+          data-jarallax-video="mp4:../images/cfeg-loop.mp4"
+        >
+          <div id="jarallax-container-0" class="video-one">
+            <img class="img-respon" src={homeLoop} />
+          </div>
+        </div>
+      </div>
 
-    <section class="position-relative">
+      <div class="container position-relative z-index-2 pt-14 pb-12">
+        <div class="row pb-7 pt-lg-12">
+          <div class="col-12 mx-auto text-center col-xl-10">
+            <h1 class="display-1 mb-5 mb-lg-7">
+              Direct Your Learning With The Center For Educational Growth
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* <section class="position-relative">
       <div class="container py-9 py-lg-11">
         <div class="d-flex mb-5 align-items-center"></div>
         <div
@@ -92,7 +113,7 @@ const IndexPage = () => (
           </button>
         </div>
       </div>
-    </section>
+    </section> */}
 
     <section class="position-relative" id="section">
       <div class="container py-9 py-lg-11 position-relative">
@@ -150,7 +171,11 @@ const IndexPage = () => (
               What We <span class="text-gradient">Do</span>
             </h2>
 
-            <p class="mb-5">
+            <p
+              class="w-lg-85 ms-auto mb-0 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               We offer students a new way to direct their learning by
               integrating virtual and in-person courses with unique curriculums.
               This approach allows students to become skilled professionals,
@@ -202,15 +227,16 @@ const IndexPage = () => (
               <div class="card-body pb-5 position-relative">
                 <h5 class="py-3 mb-0">Credit Recovery</h5>
                 <p class="mb-0 px-lg-4">
-                  Avoid failure and earn academic credit, "boost your gpa"
+                  Avoid failure and earn academic credit -
                 </p>
+                <p class="mb-0 px-lg-4">Let CFEG help "boost your gpa"</p>
                 <p class="mb-0">
                   <div class="d-grid mb-0">
                     <a
                       href="/our-services"
-                      class="btn btn-primary btn-hover-arrow rounded-pill hover-lift"
+                      class="btn btn-primary btn-top rounded-pill hover-lift"
                     >
-                      <span>Get started</span>
+                      <span>Enroll Now</span>
                     </a>
                   </div>
                 </p>
@@ -225,16 +251,18 @@ const IndexPage = () => (
               <div class="card-body pb-5 position-relative">
                 <h5 class="py-3 mb-0">Virtual and in Person Classes</h5>
                 <p class="mb-0 px-lg-4">
-                  No structured curriculums, learn all year round, "your pace
-                  your time"
+                  No structured curriculums and classes you choose -
+                </p>
+                <p class="mb-0 px-lg-4">
+                  Learn with CFEG at "your pace your time"
                 </p>
                 <p class="mb-0">
                   <div class="d-grid mb-0">
                     <a
                       href="/our-services"
-                      class="btn btn-primary btn-hover-arrow rounded-pill hover-lift"
+                      class="btn btn-primary btn-top rounded-pill hover-lift"
                     >
-                      <span>Get started</span>
+                      <span>Enroll Now</span>
                     </a>
                   </div>
                 </p>
@@ -246,17 +274,18 @@ const IndexPage = () => (
               <div class="card-body pb-5 position-relative">
                 <h5 class="py-3 mb-0">Career and College Development</h5>
                 <p class="mb-0 px-lg-4">
-                  We intergrate experts, professionals, internships, and
-                  mentorships into our curriculums, "building your path now not
-                  later to real life skills and higher learning"
+                  Include internships and mentorships in your education -
+                </p>
+                <p class="mb-0 px-lg-4">
+                  Don’t wait CFEG “is a path to careers and higher learning"
                 </p>
                 <p class="mb-0">
                   <div class="d-grid mb-0">
                     <a
                       href="/our-services"
-                      class="btn btn-primary btn-hover-arrow rounded-pill hover-lift"
+                      class="btn btn-primary btn-top rounded-pill hover-lift"
                     >
-                      <span>Get started</span>
+                      <span>Enroll Now</span>
                     </a>
                   </div>
                 </p>
@@ -269,8 +298,8 @@ const IndexPage = () => (
 
     <section class="position-relative text-center">
       <iframe
-        width="560"
-        height="315"
+        width="100%"
+        height="500"
         class="m-auto"
         src="https://www.youtube.com/embed/XLhOAppLLeA"
         title="YouTube video player"
@@ -430,6 +459,104 @@ const IndexPage = () => (
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="position-relative bg-white overflow-hidden">
+      <div class="container pt-9 pt-lg-11 position-relative z-index-1">
+        <div class="mb-7 w-lg-60 mx-auto text-center">
+          <div class="mb-3 aos-init" data-aos="" data-aos-once="false">
+            <h2
+              class="display-3 splitting-down words chars splitting"
+              data-splitting=""
+            >
+              Our Partners
+            </h2>
+          </div>
+
+          <div class="mx-auto width-80 pt-1 bg-primary mt-4"></div>
+        </div>
+        <div class="row mb-7 mb-lg-11 row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center">
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/maxresdefault.jpeg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/download.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/dspr-logo.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/Edmentum.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/cropped-CFVI_Primary_Logo_2021.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/cropped-logo-300.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/vica_logo_186.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/28183cde-75b1-4897-8232-4a7e59353016-profile-picture.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
