@@ -130,7 +130,7 @@ const IndexPage = () => (
               data-aos-delay="100"
             >
               The Center for Educational Growth (CFEG) is an online and
-              in-person school that offers hands-on, flexible classes at an
+              in-person school that offers hands-on flexible classes at an
               affordable price.
             </p>
           </div>
@@ -229,7 +229,7 @@ const IndexPage = () => (
                   Avoid failure and earn academic credit
                 </p>
                 <p class="mb-0 px-lg-4">
-                  <i>Let CFEG help "boost your gpa"</i>
+                  <i>Let CFEG help boost your gpa</i>
                 </p>
                 <p class="mb-0">
                   <div class="d-grid mb-0">
@@ -290,7 +290,7 @@ const IndexPage = () => (
                 <h5 class="py-3 mb-0">Career and College Development</h5>
                 <p class="mb-0 px-lg-4">Includes internships and mentorships</p>
                 <p class="mb-0 px-lg-4">
-                  <i>CFEG, a path to careers and higher learning</i>
+                  <i>CFEG is a path to careers and higher learning</i>
                 </p>
                 <p class="mb-0">
                   <div class="d-grid mb-0">
@@ -385,13 +385,13 @@ const IndexPage = () => (
                   </svg>
                   <blockquote>
                     <p class="display-5 fw-normal mb-5">
-                      "Thanks for showing such amazing concern and dedication to
+                      Thanks for showing such amazing concern and dedication to
                       the education of my son Mateo. He may not always show it,
-                      but I know he appreciated your efforts. And I did too. "
+                      but I know he appreciated your efforts. And I did too.
                     </p>
                   </blockquote>
                   <figcaption>
-                    <h6 class="mb-0">Vanessa F.,</h6>
+                    <h6 class="mb-0">Vanessa F.</h6>
                     <span class="text-muted small">parent</span>
                   </figcaption>
                 </figure>
@@ -417,13 +417,13 @@ const IndexPage = () => (
                   </svg>
                   <blockquote>
                     <p class="display-5 fw-normal mb-5">
-                      "Gabriella really enjoyed learning new skills in this
+                      Gabriella really enjoyed learning new skills in this
                       summer’s interactive music and surfing classes. She had a
-                      chance to open up and express herself."
+                      chance to open up and express herself.
                     </p>
                   </blockquote>
                   <figcaption>
-                    <h6 class="mb-0">Matthew F</h6>
+                    <h6 class="mb-0">Matthew F.</h6>
                     <span class="text-muted small">parent</span>
                   </figcaption>
                 </figure>
@@ -449,9 +449,8 @@ const IndexPage = () => (
                   </svg>
                   <blockquote>
                     <p class="display-5 fw-normal mb-5">
-                      "The course recovery program allowed me to get a higher
-                      GPA, so now I don’t have any failing grades when college
-                      admissions look at my transcripts."
+                      The credit recovery program allowed me to get a higher
+                      GPA, and allowed me to get into college.
                     </p>
                   </blockquote>
                   <figcaption>

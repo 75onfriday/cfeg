@@ -7,12 +7,51 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const StoryPage = () => (
   <Layout>
+    <section class="position-relative bg-tint-primary">
+      <svg
+        class="w-100 text-white position-absolute bottom-0 start-0"
+        preserveAspectRatio="none"
+        width="1200"
+        height="60"
+        viewBox="0 0 1200 148"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 126.857L1200 0V148H0V126.857Z"
+          fill="currentColor"
+        ></path>
+      </svg>
+      <div class="container position-relative pt-14 pb-9">
+        <div class="row align-items-center pb-5 pb-lg-7 pt-lg-9">
+          <div
+            class="col-md-10 col-lg-8 aos-init aos-animate"
+            data-aos=""
+            data-aos-delay="300"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+            <h1 class="display-2 mb-2 splitting-up" data-splitting="">
+              Our Story
+            </h1>
+            {/* <p class="mb-0 lead w-lg-85">
+              Contact us to explore our education methods and learn more about
+              how CFEG’s programs and teachers provide students and parents the
+              options they need. Talk with us about creating a customized
+              educational experience for YOU.
+            </p> */}
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="position-relative">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-9">
             <div class=" px-4 py-5 ">
-              <h1 class="story-head">Our Story</h1>
+              {/* <h1 class="story-head">Our Story</h1> */}
               <StaticImage class="mb-3" src="../images/ms-cannon.jpg" />
               <h2 class="story-subhead">How It Began</h2>
               <p
