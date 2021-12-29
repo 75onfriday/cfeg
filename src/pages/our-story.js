@@ -8,49 +8,67 @@ import { StaticImage } from "gatsby-plugin-image"
 const StoryPage = () => (
   <Layout>
     <section class="position-relative">
-      <div class="container py-9 py-lg-11">
-        <div class="row pt-4 pt-lg-9 justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center">
           <div class="col-xl-9">
-            <div class="shadow-lg rounded-xl px-4 px-lg-6 py-5 py-lg-7">
-              <h1 class="mb-0 display-5">Our Story</h1>
+            <div class=" px-4 py-5 ">
+              <h1 class="story-head">Our Story</h1>
+              <StaticImage class="mb-3" src="../images/ms-cannon.jpg" />
+              <h2 class="story-subhead">How It Began</h2>
               <p
-                class="aos-init aos-animate btn-top"
+                class="aos-init aos-animate btn-top story-body"
                 data-aos="fade-down"
                 data-aos-delay="150"
               >
                 During the 70’s when I attended public high school in the Virgin
                 Islands, I received no guidance as a high school student. I
-                wanted to attend college, but the counsellors dismissed me
+                wanted to attend college, but the counselors dismissed me
                 because I had an immigrant status (I was born in Trinidad &
-                Tobago). My confidence was shook, but I managed to overcome and
-                attend college and graduate school.
+                Tobago). My confidence was shook by the school system that was
+                meant to help me, but the systems’ and its counselors dismissal
+                of me drove me to graduate from high school and attend college.
               </p>
-              <StaticImage class="mb-3" src="../images/ms-cannon.jpg" />
+              <h2 class="story-subhead">The Founder Story </h2>
               <p
-                class="mb-0 aos-init aos-animate"
+                class="mb-0 aos-init aos-animate story-body"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                The adverse encounters with the school counsellors inspired me
-                to pursue a career in counselling and education. I found a
-                passion and desire to help students regardless of their race,
-                nationality or gender. During my 32 years of public service in
+                My challenges with the school system and adverse encounters with
+                school counselors inspired me to pursue a career in counseling
+                and education. I found a passion and desire to provide the help
+                I didn’t received to every student regardless of their race,
+                nationality, gender, or economic status. I devoted my life to
+                the guidance of young people because I believe they deserve such
+                guidance. Additionally, during my 32 years of public service in
                 the Virgin Islands, I helped thousands of students navigate the
-                educational system and recieve their high school diplomas.
+                educational system and receive their high school diplomas and
+                graduate degrees. In my tenure as a public servant to education,
+                no student under my care was turned away from obtaining the
+                education and pursuit of learning they wanted.
               </p>
+              <h2 class="story-subhead">The Creation Of CFEG</h2>
               <p
-                class="mb-0 aos-init aos-animate"
+                class="mb-0 aos-init aos-animate story-body"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                Although I loved my career, I felt like I could do more. So when
-                I retired in 2018 I started formulating the plans for a new
-                effective educational solution for students. I know I wanted
-                them to feel that their individual lives mattered and I wanted
-                them to have an alternative to the regular mundane brick and
-                mortar. So, I founded The Center for Educational Growth.
+                Although my career as a counselor led to student success, I
+                wanted to do more to provide students a system of education that
+                was also an accomplishment. So when I retired from working
+                within the public school system in 2018, I immediately started
+                formulating the plans for a new effective educational solution
+                for students. I know I wanted students to feel that their
+                individual lives mattered, and I wanted students to have an
+                alternative to the brick and mortar learning systems, which does
+                not alway offer the type of education made to fit each
+                individual student’s needs. So, in 2019 I founded “The Center
+                for Educational Growth, Inc. (CFEG)” a non-profit virtual and in
+                person school devoted to building new ways for professionals,
+                teachers, and counselor to educate, and a new way for every type
+                of student to direct their learning.
               </p>
-              <h4 class="mb-5 btn-top">Stats about CFEG:</h4>
+              <h4 class="story-subhead btn-top">CFEG ACCOMPLISHMENTS</h4>
               <div class="row">
                 <div
                   class="col-sm-6 mb-4 aos-init aos-animate"
@@ -59,7 +77,8 @@ const StoryPage = () => (
                 >
                   <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
                     <p class="mb-0">
-                      Help raise students GPA’s from 2.0 to 3.0
+                      Since 2019 CFEG helped students raise their GPA from 2.0
+                      to 3.0
                     </p>
                   </div>
                 </div>
@@ -68,9 +87,13 @@ const StoryPage = () => (
                   data-aos="fade-left"
                   data-aos-delay="250"
                 >
-                  <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
+                  <div
+                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
+                    style={{ backgroundColor: "#CCD4D9" }}
+                  >
                     <p class="mb-0">
-                      Promote all high school seniors to graduation
+                      In 2020 CFEG students entering into the 6th grade now read
+                      at the 11th grade level
                     </p>
                   </div>
                 </div>
@@ -80,10 +103,13 @@ const StoryPage = () => (
                   data-aos="fade-left"
                   data-aos-delay="300"
                 >
-                  <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
+                  <div
+                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
+                    style={{ backgroundColor: "#99A9B3" }}
+                  >
                     <p class="mb-0">
-                      Matriculate 100% of high school seniors to the college or
-                      military school of their choice
+                      In 2021 CFEG Academic Programs accelerated 8 sophomores to
+                      the senior grade level
                     </p>
                   </div>
                 </div>
@@ -92,10 +118,13 @@ const StoryPage = () => (
                   data-aos="fade-left"
                   data-aos-delay="350"
                 >
-                  <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
+                  <div
+                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
+                    style={{ backgroundColor: "#667F8D", color: "#fff" }}
+                  >
                     <p class="mb-0">
-                      Increase the reading proficiency of students reading on a
-                      6th-grade level to the 11th-grade level
+                      In 2022 CFEG seniors will be graduating with college
+                      credits
                     </p>
                   </div>
                 </div>
@@ -104,10 +133,13 @@ const StoryPage = () => (
                   data-aos="fade-left"
                   data-aos-delay="400"
                 >
-                  <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
+                  <div
+                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
+                    style={{ backgroundColor: "#335467", color: "#fff" }}
+                  >
                     <p class="mb-0">
-                      Helped 15 students through the course recovery program,
-                      increasing scores by 27%
+                      100% of CFEG High School Seniors graduated and were
+                      accepted into College
                     </p>
                   </div>
                 </div>
@@ -116,10 +148,13 @@ const StoryPage = () => (
                   data-aos="fade-left"
                   data-aos-delay="450"
                 >
-                  <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
+                  <div
+                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
+                    style={{ backgroundColor: "#002A41", color: "#fff" }}
+                  >
                     <p class="mb-0">
-                      Accelerate the promotion of 8 sophomore students to senior
-                      grade level
+                      100% of CFEG Recovery Students received grades 27% higher
+                      in previously failed classes
                     </p>
                   </div>
                 </div>

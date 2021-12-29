@@ -14,39 +14,6 @@ const OurServicesPage = () => (
               CFEG is educating differently and this is how -{" "}
             </h1>
           </div>
-          <p className="btn-top">
-            By offering three key service types to parents and students CFEG is
-            allowing the following to be accomplished with its education system:
-          </p>
-          <ul class="services-list">
-            <li>
-              - <span class="underline-intro">Course Recovery</span> with CFEG,
-              <b>offers</b> new and unique approaches to the type of classes and
-              what is taught in the classroom, so that no student leaves the
-              classroom without credit, a better grade, or an increase in
-              knowledge in any subject a student may find difficult;{" "}
-            </li>
-            <li>
-              -
-              <span class="underline-intro">
-                High School Diploma and Classes
-              </span>
-              with CFEG, <b>allows</b> young people to learn how to become
-              professionals during school through new blended education
-              curriculums which, helps students to accelerate to higher grades,
-              be challenged, and choose classes that fit their strengths;
-            </li>
-            <li>
-              -
-              <span class="underline-intro">
-                Summer and Vocational Programs
-              </span>
-              with CFEG, <b>prepares</b> students by adding vocation and
-              enrichment programs to the curriculum, so students can gain real
-              life experience while learning how to build professional skills
-              and career pathways.
-            </li>
-          </ul>
         </div>
       </div>
     </section>
@@ -61,7 +28,7 @@ const OurServicesPage = () => (
             >
               <div class="card shadow-lg card-body py-5 px-4 z-index-1 rounded-3 rounded-3 d-flex flex-column overflow-hidden h-100">
                 <div class="position-relative overflow-hidden">
-                  <h4>Course Recovery</h4>
+                  <h4>Credit Recovery</h4>
                   <div class="d-flex align-items-end mb-4">
                     <sup class="d-inline-block">$</sup>
                     <div
@@ -98,7 +65,7 @@ const OurServicesPage = () => (
                     aria-expanded="false"
                     class="modal-text"
                   >
-                    Learn more about Course Recovery
+                    Learn More About Credit Recovery
                   </a>
                   <a
                     href="/contact"
@@ -116,7 +83,7 @@ const OurServicesPage = () => (
             >
               <div class="card shadow-lg z-index-1 card-body py-5 px-4 rounded-3 d-flex flex-column overflow-hidden h-100">
                 <div class="position-relative overflow-hidden">
-                  <h4>High School Diploma and Classes</h4>
+                  <h4>Virtual And In Person Classes</h4>
                   <div class="d-flex align-items-end mb-4">
                     <sup class="d-inline-block">$</sup>
                     <div
@@ -151,7 +118,7 @@ const OurServicesPage = () => (
                     aria-expanded="false"
                     class="modal-text"
                   >
-                    Learn more about our High School Diploma and Classes
+                    Learn More About Virtual And In Person Classes
                   </a>
                   <a
                     href="/contact"
@@ -170,7 +137,7 @@ const OurServicesPage = () => (
             >
               <div class="card shadow card-body py-5 px-4 rounded-3 overflow-hidden h-100">
                 <div class="position-relative overflow-hidden">
-                  <h4>Summer and Vocational Programs</h4>
+                  <h4>Career And College Development</h4>
                   <div class="d-flex align-items-end mb-4">
                     <sup class="d-inline-block">$</sup>
                     <div
@@ -188,16 +155,16 @@ const OurServicesPage = () => (
 
                 <ul class="text-center list-unstyled py-4 flex-grow-1">
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    Mentorships and Internships
+                    Small Group Sessions
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    Instruction by experts in the field
+                    Instruction By Experts
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    Enrichment and fun
+                    Enrichment And fun
                   </li>
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
-                    Education and skill development the full year
+                    Full Year Skill Development
                   </li>
                 </ul>
                 <div class="d-grid">
@@ -207,7 +174,7 @@ const OurServicesPage = () => (
                     aria-expanded="false"
                     class="modal-text"
                   >
-                    Learn more about our Summer and Vocational Programs
+                    Learn More About Career And College Development
                   </a>
                   <a
                     href="/contact"

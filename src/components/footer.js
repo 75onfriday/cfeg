@@ -19,8 +19,11 @@ const Footer = () => (
           <h5 class="mb-4">Let's Talk About A New Way To Learn</h5>
           <div class="footer-info-details">
             <p>
-              <a href="mailus@domain.com" class="link-hover-underline">
-                mailus@domain.com
+              <a
+                href="mailto:lpetersen@usvicfeg.com"
+                class="link-hover-underline"
+              >
+                Email Us
               </a>
             </p>
             <p class="mb-0">
