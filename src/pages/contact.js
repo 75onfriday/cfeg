@@ -35,12 +35,6 @@ const ContactPage = () => (
             <h1 class="display-2 mb-2 splitting-up" data-splitting="">
               Let’s Start a Conversation
             </h1>
-            <p class="mb-0 lead w-lg-85">
-              Contact us to explore our education methods and learn more about
-              how CFEG’s programs and teachers provide students and parents the
-              options they need. Talk with us about creating a customized
-              educational experience for YOU.
-            </p>
           </div>
         </div>
       </div>
@@ -51,14 +45,12 @@ const ContactPage = () => (
           <div class="row">
             <div class="col-md-8 col-lg-7 mb-7 mb-md-0 me-auto">
               <div class="position-relative">
-                <h5>
-                  TELL US ABOUT YOU AND WHAT EDUCATION PROGRAMS AND EXPERIENCE
-                  YOUR LOOKING FOR
-                </h5>
                 <p>
-                  Let’s talk more about what CFEG not only can offer you as a
-                  student but build for you as a student. We are here with you
-                  and to help you “Direct Your Learning”.
+                  <b>“Direct Your Learning”</b>, by telling CFEG the services
+                  you are interested in and contacting CFEG to enroll. Tell us
+                  more about you, and let’s discuss how CFEG works together with
+                  parents and students to build an education system that they
+                  can customize to meet their learning needs.
                 </p>
                 <div class="width-60 pt-1 bg-primary mb-5"></div>
 

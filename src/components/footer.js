@@ -32,8 +32,8 @@ const Footer = () => (
               </a>
             </p>
           </div>
-          <hr class="my-4" />
-          <h6 class="mb-4">Follow us</h6>
+          {/* <hr class="my-4" /> */}
+          {/* <h6 class="mb-4">Follow us</h6>
           <div class="">
             <a
               href="#"
@@ -67,7 +67,7 @@ const Footer = () => (
             >
               <i class="bi bi-instagram"></i>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <hr class="mb-5 mt-0" />

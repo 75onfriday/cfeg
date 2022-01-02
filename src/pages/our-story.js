@@ -52,7 +52,7 @@ const StoryPage = () => (
           <div class="col-xl-9">
             <div class=" px-4 py-5 ">
               {/* <h1 class="story-head">Our Story</h1> */}
-              <StaticImage class="mb-3" src="../images/ms-cannon.jpg" />
+              {/* <StaticImage class="mb-3" src="../images/ms-cannon.jpg" /> */}
               <h2 class="story-subhead">How It Began</h2>
               <p
                 class="aos-init aos-animate btn-top story-body"
@@ -63,10 +63,16 @@ const StoryPage = () => (
                 Islands, I received no guidance as a high school student. I
                 wanted to attend college, but the counselors dismissed me
                 because I had an immigrant status (I was born in Trinidad &
-                Tobago). My confidence was shook by the school system that was
-                meant to help me, but the systems’ and its counselors dismissal
-                of me drove me to graduate from high school and attend college.
+                Tobago). My confidence was shook by the school system and the
+                counselors that refused to develop my learning skills, and their
+                dismissal drove me to graduate from high school and attend
+                college.
               </p>
+              <StaticImage
+                src="../images/ms-cannon.jpg"
+                class="img-fluid rounded-blob shadow-lg"
+                alt=""
+              />
               <h2 class="story-subhead">The Founder Story </h2>
               <p
                 class="mb-0 aos-init aos-animate story-body"
@@ -75,8 +81,18 @@ const StoryPage = () => (
               >
                 My challenges with the school system and adverse encounters with
                 school counselors inspired me to pursue a career in counseling
-                and education. I found a passion and desire to provide the help
-                I didn’t received to every student regardless of their race,
+                and education. My passion and desire to provide students the
+                help I did not receive allowed me to assist every student
+                regardless of their race, nationality, gender, or economic
+                status. I devoted my life to the guidance of young people
+                because I believe they deserve such guidance. During my 32 years
+                of public service in the Virgin Islands, I helped thousands of
+                students navigate education systems, receive their high school
+                diplomas, and pursue graduate degrees. In my tenure as a public
+                servant to education, no student under my care has been turned
+                away from obtaining the education and pursuit of learning they
+                wanted. I found a passion and desire to provide the help I
+                didn’t received to every student regardless of their race,
                 nationality, gender, or economic status. I devoted my life to
                 the guidance of young people because I believe they deserve such
                 guidance. Additionally, during my 32 years of public service in
@@ -86,50 +102,46 @@ const StoryPage = () => (
                 no student under my care was turned away from obtaining the
                 education and pursuit of learning they wanted.
               </p>
-              <h2 class="story-subhead">The Creation Of CFEG</h2>
+              <h2 class="story-subhead">Formation Of CFEG</h2>
               <p
                 class="mb-0 aos-init aos-animate story-body"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
                 Although my career as a counselor led to student success, I
-                wanted to do more to provide students a system of education that
-                was also an accomplishment. So when I retired from working
-                within the public school system in 2018, I immediately started
-                formulating the plans for a new effective educational solution
-                for students. I know I wanted students to feel that their
-                individual lives mattered, and I wanted students to have an
-                alternative to the brick and mortar learning systems, which does
-                not alway offer the type of education made to fit each
-                individual student’s needs. So, in 2019 I founded “The Center
-                for Educational Growth, Inc. (CFEG)” a non-profit virtual and in
-                person school devoted to building new ways for professionals,
-                teachers, and counselor to educate, and a new way for every type
-                of student to direct their learning.
+                wanted to do more, create new ways to learn, and build students
+                a system of education that was an accomplishment. In 2018, I
+                retired from working within the public school system and
+                immediately started planning a new way to offer students
+                education solutions. I knew I wanted students to feel that their
+                individual lives mattered. I wanted students to have an
+                alternative to the brick and mortar school systems, which do not
+                always offer students the type of education made to fit their
+                individual needs. In 2019, I founded the non-profit The Center
+                for Educational Growth, Inc. (“CFEG”), creating a virtual and in
+                person school devoted to building education solutions and new
+                ways for professionals, teachers, and counselors to educate.
+                CFEG was created to provide parents with more education options
+                for their children, and CFEG specializes in providing students
+                the tools they need to direct their learning.
               </p>
-              <h4 class="story-subhead btn-top">CFEG ACCOMPLISHMENTS</h4>
-              <div class="row">
-                <div
-                  class="col-sm-6 mb-4 aos-init aos-animate"
-                  data-aos="fade-left"
-                  data-aos-delay="150"
-                >
-                  <div class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body">
+              <h4
+                class="story-subhead btn-top text-center"
+                style={{ marginTop: "60px" }}
+              >
+                CFEG Accomplishments{" "}
+              </h4>
+              <div class="row text-center">
+                <div class="">
+                  <div class="py-6 px-4">
                     <p class="mb-0">
                       Since 2019 CFEG helped students raise their GPA from 2.0
                       to 3.0
                     </p>
                   </div>
                 </div>
-                <div
-                  class="col-sm-6 mb-4 aos-init aos-animate"
-                  data-aos="fade-left"
-                  data-aos-delay="250"
-                >
-                  <div
-                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
-                    style={{ backgroundColor: "#CCD4D9" }}
-                  >
+                <div class="">
+                  <div class="py-6 px-4" style={{ backgroundColor: "#CCD4D9" }}>
                     <p class="mb-0">
                       In 2020 CFEG students entering into the 6th grade now read
                       at the 11th grade level
@@ -137,28 +149,17 @@ const StoryPage = () => (
                   </div>
                 </div>
 
-                <div
-                  class="col-sm-6 mb-4 aos-init aos-animate"
-                  data-aos="fade-left"
-                  data-aos-delay="300"
-                >
-                  <div
-                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
-                    style={{ backgroundColor: "#99A9B3" }}
-                  >
+                <div class="">
+                  <div class="py-6 px-4" style={{ backgroundColor: "#99A9B3" }}>
                     <p class="mb-0">
                       In 2021 CFEG Academic Programs accelerated 8 sophomores to
                       the senior grade level
                     </p>
                   </div>
                 </div>
-                <div
-                  class="col-sm-6 aos-init aos-animate"
-                  data-aos="fade-left"
-                  data-aos-delay="350"
-                >
+                <div class="">
                   <div
-                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
+                    class="py-6 px-4"
                     style={{ backgroundColor: "#667F8D", color: "#fff" }}
                   >
                     <p class="mb-0">
@@ -167,13 +168,9 @@ const StoryPage = () => (
                     </p>
                   </div>
                 </div>
-                <div
-                  class="col-sm-6 mb-4 mb-sm-0 aos-init aos-animate"
-                  data-aos="fade-left"
-                  data-aos-delay="400"
-                >
+                <div class="">
                   <div
-                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
+                    class="py-6 px-4"
                     style={{ backgroundColor: "#335467", color: "#fff" }}
                   >
                     <p class="mb-0">
@@ -182,13 +179,9 @@ const StoryPage = () => (
                     </p>
                   </div>
                 </div>
-                <div
-                  class="col-sm-6 aos-init aos-animate"
-                  data-aos="fade-left"
-                  data-aos-delay="450"
-                >
+                <div class="">
                   <div
-                    class="card py-6 px-4 shadow hover-lift-lg hover-shadow-lg card-body"
+                    class="py-6 px-4"
                     style={{ backgroundColor: "#002A41", color: "#fff" }}
                   >
                     <p class="mb-0">

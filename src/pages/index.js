@@ -129,9 +129,8 @@ const IndexPage = () => (
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              The Center for Educational Growth (CFEG) is an online and
-              in-person school that offers hands-on flexible classes at an
-              affordable price.
+              The Center for Educational Growth (CFEG) is a non-profit school
+              that offers hands-on flexible classes at an affordable price.
             </p>
           </div>
           <div class="col-lg-6 col-xl-5 order-lg-1">
@@ -226,7 +225,7 @@ const IndexPage = () => (
               <div class="card-body pb-5 position-relative">
                 <h5 class="py-3 mb-0">Credit Recovery</h5>
                 <p class="mb-0 px-lg-4">
-                  Avoid failure and earn academic credit
+                  Improve grades and earn academic credit
                 </p>
                 <p class="mb-0 px-lg-4">
                   <i>Let CFEG help boost your gpa</i>
@@ -242,7 +241,7 @@ const IndexPage = () => (
                       Learn more
                     </a>
                     <a
-                      href="/our-services"
+                      href="/contact"
                       class="btn btn-primary btn-top rounded-pill hover-lift"
                     >
                       <span>Enroll Now</span>
@@ -274,7 +273,7 @@ const IndexPage = () => (
                       Learn more
                     </a>
                     <a
-                      href="/our-services"
+                      href="/contact"
                       class="btn btn-primary btn-top rounded-pill hover-lift"
                     >
                       <span>Enroll Now</span>
@@ -287,7 +286,7 @@ const IndexPage = () => (
           <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up">
             <article class="card card-hover text-center hover-shadow-lg overflow-hidden border-0 rounded-3 shadow-sm">
               <div class="card-body pb-5 position-relative">
-                <h5 class="py-3 mb-0">Career and College Development</h5>
+                <h5 class="py-3 mb-0">Career And College Development</h5>
                 <p class="mb-0 px-lg-4">Includes internships and mentorships</p>
                 <p class="mb-0 px-lg-4">
                   <i>CFEG is a path to careers and higher learning</i>
@@ -303,7 +302,7 @@ const IndexPage = () => (
                       Learn more
                     </a>
                     <a
-                      href="/our-services"
+                      href="/contact"
                       class="btn btn-primary btn-top rounded-pill hover-lift"
                     >
                       <span>Enroll Now</span>
@@ -572,6 +571,16 @@ const IndexPage = () => (
             <div class="d-flex align-items-center justify-content-center my-4">
               <StaticImage
                 src="../images/28183cde-75b1-4897-8232-4a7e59353016-profile-picture.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <StaticImage
+                src="../images/1878-logo.jpeg"
                 alt=""
                 class="img-fluid"
               />
