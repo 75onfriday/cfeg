@@ -91,16 +91,7 @@ const StoryPage = () => (
                 diplomas, and pursue graduate degrees. In my tenure as a public
                 servant to education, no student under my care has been turned
                 away from obtaining the education and pursuit of learning they
-                wanted. I found a passion and desire to provide the help I
-                didn’t received to every student regardless of their race,
-                nationality, gender, or economic status. I devoted my life to
-                the guidance of young people because I believe they deserve such
-                guidance. Additionally, during my 32 years of public service in
-                the Virgin Islands, I helped thousands of students navigate the
-                educational system and receive their high school diplomas and
-                graduate degrees. In my tenure as a public servant to education,
-                no student under my care was turned away from obtaining the
-                education and pursuit of learning they wanted.
+                wanted.
               </p>
               <h2 class="story-subhead">Formation Of CFEG</h2>
               <p
@@ -133,7 +124,7 @@ const StoryPage = () => (
               </h4>
               <div class="row text-center">
                 <div class="">
-                  <div class="py-6 px-4">
+                  <div class="py-6 px-4" style={{ backgroundColor: "#E8E5E5" }}>
                     <p class="mb-0">
                       Since 2019 CFEG helped students raise their GPA from 2.0
                       to 3.0

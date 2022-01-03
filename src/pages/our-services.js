@@ -6,12 +6,34 @@ import Seo from "../components/seo"
 
 const OurServicesPage = () => (
   <Layout>
-    <section class="position-relative bg-light">
-      <div class="container py-9">
-        <div class="row align-items-center">
-          <div class="col-md-7 mb-4 mb-md-0">
-            <h1 class="mb-0 display-5">
-              CFEG is educating differently and this is how -{" "}
+    <section class="position-relative bg-tint-primary">
+      <svg
+        class="w-100 text-white position-absolute bottom-0 start-0"
+        preserveAspectRatio="none"
+        width="1200"
+        height="60"
+        viewBox="0 0 1200 148"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 126.857L1200 0V148H0V126.857Z"
+          fill="currentColor"
+        ></path>
+      </svg>
+      <div class="container position-relative pt-14 pb-9">
+        <div class="row align-items-center pb-5 pb-lg-7 pt-lg-9">
+          <div
+            class="col-md-10 col-lg-8 aos-init aos-animate"
+            data-aos=""
+            data-aos-delay="300"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+            <h1 class="display-2 mb-2 splitting-up" data-splitting="">
+              Our Services
             </h1>
           </div>
         </div>
@@ -163,7 +185,7 @@ const OurServicesPage = () => (
                   <li class="pb-2 mb-2 border-dashed border-bottom d-table">
                     Enrichment And fun
                   </li>
-                  <li class="pb-2 mb-2 border-dashed border-bottom d-table">
+                  <li class="pb-2 mb-2  d-table">
                     Full Year Skill Development
                   </li>
                 </ul>
@@ -179,6 +201,7 @@ const OurServicesPage = () => (
                   <a
                     href="/contact"
                     class="btn btn-outline-secondary rounded-pill hover-lift"
+                    style={{ marginTop: "20px" }}
                   >
                     <span>Get started</span>
                   </a>
