@@ -55,11 +55,12 @@ const ContactPage = () => (
                 <div class="width-60 pt-1 bg-primary mb-5"></div>
 
                 <form
-                  action="#"
+                  name="cfeg form"
                   method="post"
                   role="form"
                   class="needs-validation mb-5 mb-lg-7"
                   novalidate=""
+                  data-netlify="true"
                 >
                   <div class="row">
                     <div class="col-sm-6 mb-3">
