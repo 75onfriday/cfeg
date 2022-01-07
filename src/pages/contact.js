@@ -106,7 +106,7 @@ const ContactPage = () => (
                         class="form-control"
                         name="subject"
                         id="subject"
-                        placeholder="Web Design"
+                        placeholder="Course Recovery"
                         required=""
                         pwa2-uuid="EDITOR/input-09A-DCF-22300-4A0"
                         pwa-fake-editor=""
