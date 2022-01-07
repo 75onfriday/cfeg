@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
+    <Seo title="Let’s Start a Conversation" />
     <section class="position-relative bg-tint-primary">
       <svg
         class="w-100 text-white position-absolute bottom-0 start-0"

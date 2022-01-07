@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 
 const OurServicesPage = () => (
   <Layout>
+    <Seo title="Our Services" />
     <section class="position-relative bg-tint-primary">
       <svg
         class="w-100 text-white position-absolute bottom-0 start-0"
