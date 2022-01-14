@@ -20,7 +20,7 @@ const Footer = () => (
           <div class="footer-info-details">
             <p>
               <a
-                href="mailto:lpetersen@usvicfeg.com"
+                href="mailto:scannon@usvicfeg.com"
                 class="link-hover-underline"
               >
                 Email Us
