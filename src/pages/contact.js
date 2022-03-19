@@ -62,7 +62,7 @@ const ContactPage = () => (
                   novalidate=""
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
-                  action="/thank-you"
+                  action="/success"
                 >
                   <div class="row">
                     <div class="col-sm-6 mb-3">
