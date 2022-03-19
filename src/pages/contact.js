@@ -56,11 +56,13 @@ const ContactPage = () => (
 
                 <form
                   name="cfeg form"
-                  method="post"
+                  method="POST"
                   role="form"
                   class="needs-validation mb-5 mb-lg-7"
                   novalidate=""
                   data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                  action="/thank-you"
                 >
                   <div class="row">
                     <div class="col-sm-6 mb-3">
