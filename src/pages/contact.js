@@ -55,18 +55,18 @@ const ContactPage = () => (
                 <div class="width-60 pt-1 bg-primary mb-5"></div>
 
                 <form
-                  name="cfeg-form"
+                  name="contact"
                   method="post"
                   class="needs-validation mb-5 mb-lg-7"
                   action="/success"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                 >
-                  <input type="hidden" name="bot-field"></input>
-                  <input type="hidden" name="cfeg-form" value="contact"></input>
+                  <input type="hidden" name="bot-field" />
+                  <input type="hidden" name="form-name" value="contact" />
                   <div class="row">
                     <div class="col-sm-6 mb-3">
-                      <label class="form-label" for="name">
+                      <label class="form-label" htmlFor="name">
                         Your name
                       </label>
                       <input
@@ -79,7 +79,7 @@ const ContactPage = () => (
                     </div>
 
                     <div class="col-sm-6 mb-3">
-                      <label class="form-label" for="email">
+                      <label class="form-label" htmlFor="email">
                         Your email address
                       </label>
                       <input
@@ -95,7 +95,7 @@ const ContactPage = () => (
                     <div class="w-100"></div>
 
                     <div class="col-sm-12 mb-3">
-                      <label class="form-label" for="subject">
+                      <label class="form-label" htmlFor="subject">
                         Subject
                       </label>
                       <input
@@ -109,7 +109,7 @@ const ContactPage = () => (
                   </div>
 
                   <div class="mb-3">
-                    <label for="message" class="form-label">
+                    <label htmlFor="message" class="form-label">
                       Message
                     </label>
                     <textarea
