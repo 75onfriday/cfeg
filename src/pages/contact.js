@@ -55,15 +55,15 @@ const ContactPage = () => (
                 <div class="width-60 pt-1 bg-primary mb-5"></div>
 
                 <form
-                  name="cfeg form"
-                  method="POST"
+                  name="cfeg-form"
+                  method="post"
                   class="needs-validation mb-5 mb-lg-7"
+                  action="/success"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
-                  action="/success"
                 >
                   <input type="hidden" name="bot-field"></input>
-                  <input type="hidden" name="form-name" value="contact"></input>
+                  <input type="hidden" name="cfeg-form" value="contact"></input>
                   <div class="row">
                     <div class="col-sm-6 mb-3">
                       <label class="form-label" for="name">
@@ -75,7 +75,6 @@ const ContactPage = () => (
                         class="form-control"
                         id="name"
                         placeholder="John Doe"
-                        required=""
                       />
                     </div>
 
@@ -90,11 +89,7 @@ const ContactPage = () => (
                         id="email"
                         placeholder="john@gmail.com"
                         aria-label="jackwayley@gmail.com"
-                        required=""
                       />
-                      <div class="invalid-feedback">
-                        Please enter a valid email address
-                      </div>
                     </div>
 
                     <div class="w-100"></div>
@@ -109,9 +104,6 @@ const ContactPage = () => (
                         name="subject"
                         id="subject"
                         placeholder="Course Recovery"
-                        required=""
-                        pwa2-uuid="EDITOR/input-09A-DCF-22300-4A0"
-                        pwa-fake-editor=""
                       />
                     </div>
                   </div>
