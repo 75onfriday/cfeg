@@ -57,9 +57,7 @@ const ContactPage = () => (
                 <form
                   name="cfeg form"
                   method="POST"
-                  role="form"
                   class="needs-validation mb-5 mb-lg-7"
-                  novalidate=""
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                   action="/success"
